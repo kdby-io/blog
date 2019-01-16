@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="<%= config.language %>">
+<%- partial('partials/head') %>
+<body>
+  <!-- <a class="github-fork-ribbon" href="https://pueue.com/resume.pdf" title="Available for hire" data-ribbon="Available for hire">Available for hire</a> -->
+  <div id="blog-wrap">
+    <%- partial('partials/header') %>
+    <div id="header-horizon"></div>
+
+    <main>
+      <div id="blog-content">
+        <%- body %>
+      </div>
+    </main>
+
+    <div id="footer-horizon"></div>
+    <%- partial('partials/footer') %>
+    <%- partial('partials/after-footer') %>
+  </div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+#blog-nav {
+  width: 100%;
+  max-width: $max-width;
+  overflow: hidden;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+
+  padding-bottom: 0.3em;
+  line-height: 2em;
+  font-family: $sans-serif-family;
+  font-size: 14px;
+  font-weight: bold;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none; 
+    list-style-image: none; 
+    text-align: center;
+
+    li {
+      display: inline-block;
+
+      a {
+        color: $base-text-color;
+        display: block;
+        padding: 0 1em;
+        border-radius: 0.25em;
+        text-decoration: none;
+
+        &:hover {
+            color: $brand-color;
+            background: #f4f4f4;
+            text-decoration: none;
+            // font-weight:bold;
+        }
+      }
+    }
+  }
+}

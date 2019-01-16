@@ -1,0 +1,19 @@
+#pagination {
+  display: flex;
+  font-size: 1.5em;
+  align-items: center;
+  justify-content: space-between;
+
+  font-weight: bold;
+
+  a,
+  span {
+    padding: 1em;
+  }
+
+  a {
+    &:hover {
+      color: $brand-color;
+    }
+  }
+}

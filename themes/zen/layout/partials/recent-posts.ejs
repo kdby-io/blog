@@ -1,0 +1,24 @@
+
+<% if (page.posts.length > 0) { %>
+  <div class="posts">
+    <% page.posts.sort('date', -1).limit(10).each(post => { %>
+      <div class="post-block">
+        <h1 class="post-title">
+          <a href="<%= url_for(post.path) %>">
+            <%= post.title %>
+          </a>
+        </h1>
+
+        <div class="post-info">
+          <time class="post-date" datetime="<%= post.date.toJSON() %>">
+            <%= date(post.date)%>
+          </time>
+        </div>
+
+        <div class="post-body">
+          <%- truncate(strip_html(post.content), { length: 300, separator: ' ', omission: '... (continued)' }) %>
+        </div>
+      </div>
+    <% }); %>
+  </div>
+<% } %>

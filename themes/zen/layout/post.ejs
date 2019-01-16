@@ -1,0 +1,15 @@
+<article class="post-block">
+  <h1 class="post-title">
+    <%= page.title %>
+  </h1>
+
+  <div class="post-info">
+    <time class="post-date" datetime="<%= page.date.toJSON() %>">
+      <%= date(page.date)%>
+    </time>
+  </div>
+
+  <div class="post-body">
+    <%- page.content %>
+  </div>
+</article>

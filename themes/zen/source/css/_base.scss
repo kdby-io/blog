@@ -1,0 +1,38 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: $sans-serif-family;
+  color: #333;
+  font-size: 14px;
+}
+
+p {
+  line-height: 22px;
+}
+
+#header-horizon {
+  height: 5px;
+  background-color: $brand-color;
+}
+
+#blog-content {
+  width: 100%;
+  max-width: $max-width;
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;  
+}
+
+#footer-horizon {
+  height: 5px;
+  background-color: $brand-color;
+}
+
+a {
+  text-decoration: none;
+  color: $base-text-color;
+}

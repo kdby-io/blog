@@ -1,0 +1,818 @@
+*,
+html,
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+label,
+fieldset,
+input,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0
+}
+
+li {
+  list-style-type: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+fieldset,
+img {
+  border: 0
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  font-style: normal;
+  font-weight: normal
+}
+
+caption,
+th {
+  text-align: left
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+q:before,
+q:after {
+  content: ''
+}
+
+strong {
+  font-weight: bold
+}
+
+em {
+  font-style: italic
+}
+
+a img {
+  border: none
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+
+
+/*  FONT-IMPORT
+
+/*-----------------------------------------------------------------------------------*/
+
+
+@font-face {
+  font-family: 'Oswald';
+  src: url('../fonts/Oswald/Oswald-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url('../fonts/Oswald/Oswald-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+
+
+/*  2. BASE CSS
+/*-----------------------------------------------------------------------------------*/
+
+body {
+  font-family: "Trebuchet MS", monospace, 'Microsoft YaHei', STHeiti;
+  color: #333;
+  font-size: 14px;
+}
+
+.blog-wrap {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+.blog-header {
+  background: #fff;
+  height: 80px;
+  position: fixed;
+  z-index: 999;
+  width: inherit;
+  max-width: inherit;
+}
+
+main {
+  padding-top: 80px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+main::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+.blog-content {
+  width: 92%;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Oswald', sans-serif, 'Microsoft YaHei', STHeiti;
+}
+
+p {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+a {
+  text-decoration: none;
+  color: #424243;
+}
+
+a:hover,
+a:link,
+a:visited,
+a:active,
+a:focus {
+  text-decoration: none;
+  color: #000;
+}
+
+img {
+  max-width: 100%;
+  border: 0;
+  padding: 0;
+  height: auto;
+}
+
+cite {
+  font-style: italic;
+}
+
+acronym {
+  border-bottom: 1px dotted #333;
+}
+
+pre {
+  overflow: auto;
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 14px;
+}
+
+code {
+  padding: 2px 4px;
+  word-wrap: break-word;
+  color: #4d4d4c;
+  background: #f7f7f7;
+  border-radius: 3px;
+  font-size: 13px;
+}
+
+pre code {
+  padding: 0;
+  color: #4d4d4c;
+  background: none;
+  text-shadow: none;
+}
+
+pre .deletion {
+  background: #fdd;
+}
+
+pre .addition {
+  background: #dfd;
+}
+
+pre .meta {
+  color: #8959a8;
+}
+
+pre .comment {
+  color: #8e908c;
+}
+
+pre .variable,
+pre .attribute,
+pre .tag,
+pre .regexp,
+pre .ruby .constant,
+pre .xml .tag .title,
+pre .xml .pi,
+pre .xml .doctype,
+pre .html .doctype,
+pre .css .id,
+pre .css .class,
+pre .css .pseudo {
+  color: #c82829;
+}
+
+pre .number,
+pre .preprocessor,
+pre .built_in,
+pre .literal,
+pre .params,
+pre .constant,
+pre .command {
+  color: #f5871f;
+}
+
+pre .ruby .class .title,
+pre .css .rules .attribute,
+pre .string,
+pre .value,
+pre .inheritance,
+pre .header,
+pre .ruby .symbol,
+pre .xml .cdata,
+pre .special,
+pre .number,
+pre .formula {
+  color: #718c00;
+}
+
+pre .title,
+pre .css .hexcolor {
+  color: #3e999f;
+}
+
+pre .function,
+pre .python .decorator,
+pre .python .title,
+pre .ruby .function .title,
+pre .ruby .title .keyword,
+pre .perl .sub,
+pre .javascript .title,
+pre .coffeescript .title {
+  color: #4271ae;
+}
+
+pre .keyword,
+pre .javascript .function {
+  color: #8959a8;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+
+
+/*  3. NAVIGATION
+/*-----------------------------------------------------------------------------------*/
+.blog-nav {
+  float: right;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+
+
+/*  6. POST LAYOUT
+/*-----------------------------------------------------------------------------------*/
+
+.articles {
+  width: 92%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.post-block {
+  margin-bottom: 100px;
+}
+
+.post-block .post-gallery>p {
+  display: none;
+}
+
+.post-block .post-gallery>p:nth-child(1) {
+  display: block;
+}
+
+.post-title {
+  font-family: "Trebuchet MS", Helvetica Neue, Helvetica, 'Microsoft YaHei', STHeiti, Arial, sans-serif;
+  margin-bottom: 25px;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1.25px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.post-title a {
+  font-family: "Trebuchet MS", Helvetica Neue, Helvetica, 'Microsoft YaHei', STHeiti, Arial, sans-serif;
+  color: #000;
+}
+
+.post-title a:hover {
+  opacity: .80;
+}
+
+.post-info {
+  font-size: 12px;
+  color: #797979;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: .6px;
+  font-family: 'Oswald', sans-serif, 'Microsoft YaHei', STHeiti;
+  font-weight: 500;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.post-entry {
+  clear: both;
+  padding-bottom: 10px;
+}
+
+.post-entry img {
+  max-width: 100%;
+  height: auto;
+}
+
+.post-entry p {
+  margin-bottom: 20px;
+  animation: 3s infinite alternate slideIn;
+}
+
+.post-entry a {
+  padding: 0 2px;
+  border-bottom: 1px solid #333;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.post-entry a:hover {
+  background-color: #444;
+  border: none;
+  color: #fff;
+  text-decoration: none;
+}
+
+.post-entry .fancybox {
+  display: inline-block;
+  border: none !important;
+  padding: 0px;
+}
+
+.post-entry #more,
+.post-entry .fancybox {
+  text-decoration: none;
+  border: none;
+}
+
+#more:hover,
+.post-entry .fancybox:hover {
+  background: transparent;
+}
+
+.post-entry a.headerlink {
+  text-decoration: none;
+  padding: 0px;
+}
+
+.post-entry p,
+.post-entry h1,
+.post-entry h2,
+.post-entry h3,
+.post-entry h4,
+.post-entry h5,
+.post-entry h6,
+.post-entry hr {
+  margin-bottom: 20px;
+  font-family: "Trebuchet MS", Helvetica Neue, Helvetica, 'Microsoft YaHei', STHeitiArial, sans-serif;
+}
+
+.post-entry h1,
+.post-entry h2,
+.post-entry h3,
+.post-entry h4,
+.post-entry h5,
+.post-entry h6 {
+  color: #000;
+  font-weight: 700;
+}
+
+.post-entry h1 {
+  font-size: 28px;
+}
+
+.post-entry h2 {
+  font-size: 26px;
+}
+
+.post-entry h3 {
+  font-size: 24px;
+}
+
+.post-entry h4 {
+  font-size: 20px;
+}
+
+.post-entry h5 {
+  font-size: 18px;
+}
+
+.post-entry h6 {
+  font-size: 16px;
+}
+
+.post-entry hr {
+  border: 0;
+  height: 0;
+  border-bottom: 1px solid #e5e5e5;
+  clear: both;
+}
+
+blockquote {
+  background-color: #F9F9F9;
+}
+
+.post-entry blockquote {
+  background-color: #f4f4f4;
+  margin-bottom: 20px;
+}
+
+.post-entry blockquote p {
+  border-left: 3px solid #424243;
+  color: #999;
+  padding: 0 18px;
+  font-family: "Georgia";
+  font-size: 15px;
+  line-height: 28px;
+  margin: 0px;
+  font-style: italic;
+}
+
+.post-entry blockquote footer {
+  padding: 0 18px;
+  text-align: right;
+}
+
+.post-entry blockquote footer cite {
+  font-style: italic;
+}
+
+.post-entry blockquote footer cite::before {
+  content: "—";
+  padding: 0px 0.5em;
+}
+
+.post-entry .pullquote {
+  text-align: left;
+  width: 45%;
+  margin: 0;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.post-entry .pullquote.left {
+  margin-left: 8px;
+  margin-right: 16px;
+}
+
+.post-entry .pullquote.right {
+  margin-right: 8px;
+  margin-left: 16px;
+}
+
+.post-entry dl,
+.post-entry ul,
+.post-entry ol {
+  padding-left: 45px;
+  margin-bottom: 20px;
+}
+
+.post-entry ul li {
+  margin-bottom: 8px;
+  list-style: square;
+}
+
+.post-entry ol li {
+  margin-bottom: 8px;
+  list-style: decimal;
+}
+
+.post-entry dt {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.post-entry dd {
+  margin-bottom: 8px;
+}
+
+.sticky.post .post-header {
+  border: 1px dashed #ddd;
+  padding: 20px 0;
+}
+
+.post-entry table {
+  width: 100%;
+  margin-bottom: 22px;
+  border-collapse: collapse;
+}
+
+.post-entry td {
+  padding: 2px;
+  border-bottom: 1px solid #ddd;
+}
+
+::selection {
+  background: #262a30;
+  color: #fff;
+}
+
+.post-entry th {
+  padding: 6px 0;
+  font-weight: bold;
+  font-size: 14px;
+  border-bottom: 2px solid #ddd;
+}
+
+.post-entry .highlight figcaption {
+  font-size: 12px;
+  color: #999;
+}
+
+.post-entry .highlight figcaption a {
+  float: right;
+  margin-right: 10px;
+}
+
+.post-entry .highlight {
+  margin-bottom: 20px;
+}
+
+.post-entry table.js-file-line-container {
+  margin-bottom: 0px;
+}
+
+.post-entry pre,
+.post-entry .highlight {
+  overflow: auto;
+  padding: 0;
+  font-size: 13px;
+  background: #f7f7f7 !important;
+  line-height: 1.6;
+}
+
+.highlight pre {
+  border: none;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.highlight table {
+  margin: 0;
+  width: auto;
+  border: none;
+}
+
+.highlight td {
+  border: none;
+  padding: 0;
+}
+
+.post-entry pre {
+  padding: 0;
+  font-size: 13px;
+  background: #f7f7f7;
+  line-height: 1.6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  overflow: auto;
+  white-space: pre;
+  word-wrap: normal;
+}
+
+.post-entry pre .line {
+  white-space: pre;
+  height: 20px;
+}
+
+.post-entry pre,
+.post-entry code {
+  font-family: consolas, Menlo, "Georgia", "PingFang SC", "Microsoft YaHei", monospace;
+}
+
+.gutter {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.gutter pre {
+  padding-left: 10px;
+  color: #869194;
+  text-align: center;
+  background-color: #eff2f3;
+}
+
+.code pre {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #f7f7f7;
+}
+
+.post-entry .gist .gist-file {
+  margin-bottom: 0px;
+  border: none;
+}
+
+.post-entry .gist .gist-file .gist-meta {
+  position: relative;
+  bottom: 0px;
+}
+
+.post-entry input {
+  padding: 3px 8px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.post-entry input[type="submit"] {
+  cursor: pointer;
+  background-color: #111;
+  color: #fff;
+  border-color: #111;
+  letter-spacing: 0.75px;
+}
+
+.post-entry input[type="submit"]:hover {
+  opacity: 0.8;
+}
+
+.post-entry .video-container {
+  position: relative;
+  padding-top: 56.25%;
+  height: 0;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.video-container iframe,
+.article-entry .video-container object,
+.article-entry .video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+}
+
+.post-entry iframe {
+  border: none;
+  margin-bottom: 20px;
+}
+
+.post-meta {
+  display: block;
+  margin-top: 15px;
+  height: 32px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+a.article-more {
+  font-family: "Trebuchet MS", Monaco, monospace;
+  font-size: 14px;
+  line-height: 35px;
+  padding-left: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #797979;
+  font-weight: 600;
+  transition: .3s;
+}
+
+a.article-more:hover {
+  color: #000;
+}
+
+.post-tags-box {
+  height: 32px;
+  text-align: center;
+  display: inline-block;
+  float: right;
+}
+
+.post-tags-box::before {
+  font-family: FontAwesome;
+  content: "\f02c";
+  margin-right: 9px;
+  color: #000;
+  font-size: 12px;
+}
+
+.post-tags-box {
+  transition: .3s;
+  color: #797979;
+  font-size: 12px;
+}
+
+.post-tags-box a {
+  color: #797979;
+  line-height: 32px;
+  text-transform: uppercase;
+}
+
+.post-tags-box a:hover {
+  color: #000;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+
+
+/*  POST
+/*-----------------------------------------------------------------------------------*/
+
+.post {
+  width: 92%;
+  margin: 0 auto;
+}

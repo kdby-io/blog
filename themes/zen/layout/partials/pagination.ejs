@@ -1,0 +1,12 @@
+<div id="pagination">
+  <% if (page.next) { %>
+    <a class="older" href="<%- url_for(page.next_link) %>">Older</a>
+  <% } else { %>
+    <span class="older">Older</span>
+  <% } %>
+  <% if (page.prev) { %>
+    <a class="newer" href="<%- url_for(page.prev_link) %>">Newer</a>
+  <% } else { %>
+    <span class="newer">Newer</span>
+  <% } %>
+</div>
