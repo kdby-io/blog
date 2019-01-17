@@ -35,21 +35,16 @@
 
 .post-body p {
   margin-bottom: 20px;
-  animation: 3s infinite alternate slideIn;
 }
 
 .post-body a {
   padding: 0 2px;
-  border-bottom: 1px solid #333;
-  -webkit-transition: all 0.2s linear;
-  -moz-transition: all 0.2s linear;
-  -ms-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
-  transition: all 0.2s linear;
+  color: $brand-color;
+  border-bottom: 1px solid $brand-color;
 }
 
 .post-body a:hover {
-  background-color: #444;
+  background-color: $brand-color;
   border: none;
   color: #fff;
   text-decoration: none;
@@ -69,7 +64,6 @@
 .post-body h6,
 .post-body hr {
   margin-bottom: 20px;
-  // font-family: "Trebuchet MS", Helvetica Neue, Helvetica, 'Microsoft YaHei', STHeitiArial, sans-serif;
 }
 
 .post-body h1,
