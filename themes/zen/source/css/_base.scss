@@ -29,6 +29,14 @@ p {
   overflow: hidden;
   margin: 0 auto;
   position: relative;  
+
+  .posts>.post-block {
+    margin-top: 4em;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
 }
 
 #footer-horizon {
@@ -39,4 +47,36 @@ p {
 a {
   text-decoration: none;
   color: $base-text-color;
+}
+
+cite {
+  font-style: italic;
+}
+
+pre {
+  overflow: auto;
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 14px;
+}
+
+code {
+  padding: 2px 4px;
+  word-wrap: break-word;
+  color: #4d4d4c;
+  background: #f7f7f7;
+  border-radius: 3px;
+  font-size: 13px;
+}
+
+pre code {
+  padding: 0;
+  color: #4d4d4c;
+  background: none;
+  text-shadow: none;
 }

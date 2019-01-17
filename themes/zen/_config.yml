@@ -4,25 +4,22 @@ language: en
 
 # main menu navigation
 menu:
-  # About: /about
-  # Archives: /archives
-  Home:
-    url: /
-  About:
-    url: /about
-  Archives:
-    url: /archives
-  Projects:
-    url: /projects
+  # Home:
+  #   url: /
+  # About:
+  #   url: /about
+  # Archives:
+  #   url: /archives
+  # Projects:
+  #   url: /projects
 
 # stylesheets loaded in the <head>
 stylesheets:
-- /css/font-awesome.min.css
-# - /css/bootstrap.min.css
+- /css/bootstrap.min.css
 - /css/reset.css
 - /css/main.css
 
 # scripts loaded in the end of the body
 scripts:
-# - /js/bootstrap.min.js
+- /js/bootstrap.min.js
 - /js/zen.js
