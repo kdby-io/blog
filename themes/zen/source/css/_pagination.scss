@@ -4,11 +4,15 @@
   align-items: center;
   justify-content: space-between;
 
-  font-weight: bold;
+  @media (max-width: $breakpoint) {
+    font-size: 1.2em;
+  }
 
-  a,
-  span {
-    padding: 1em;
+  .pagination-btn {
+    div {
+      display: inline-block;
+      padding: 0.5em;
+    }
   }
 
   a {
@@ -17,7 +21,7 @@
     }
   }
 
-  span {
+  .disabled {
     color: #ccc;
   }
 }
