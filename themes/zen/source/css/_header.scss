@@ -1,3 +1,14 @@
+#wheelspin {
+  font-family: $sans-serif-family;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: bold;
+
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
 #blog-header {
   display: flex;
   align-items: center;
@@ -21,12 +32,6 @@
     background-image: url('/logo.png');
     width: $blog-logo-size;
     height: $blog-logo-size;
-  }
-
-  #wheelspin {
-    font-family: $sans-serif-family;
-    font-size: 13px;
-    text-transform: uppercase;
   }
 
   #blog-nav {
