@@ -16,7 +16,7 @@
         </div>
 
         <div class="post-body">
-          <%- truncate(strip_html(post.content), { length: 300, separator: ' ', omission: '... (continued)' }) %>
+          <%- truncate(strip_html(post.content), { length: 300, separator: ' ', omission: ' (...)' }) %>
         </div>
       </div>
     <% }); %>
