@@ -32,9 +32,9 @@
   #blog-nav {
     font-size: 1.5em;
 
-    a {
-      color: $base-text-color;
-      padding: 0.5em;
+    @media (max-width: $breakpoint) {
+      font-size: 1.2em;
+    }
 
     div {
       display: inline-block;
