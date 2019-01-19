@@ -7,7 +7,14 @@
   padding: 0.5em 0em;
   margin: 0 auto;
 
-  font-weight: bold;
+  a {
+    color: $base-text-color;
+
+    &:hover {
+        color: $brand-color;
+        text-decoration: none;
+    }
+  }
 
   #blog-logo {
     background-size: contain;
@@ -29,10 +36,9 @@
       color: $base-text-color;
       padding: 0.5em;
 
-      &:hover {
-          color: $brand-color;
-          text-decoration: none;
-      }
+    div {
+      display: inline-block;
+      padding: 0.5em;
     }
   }
 }
