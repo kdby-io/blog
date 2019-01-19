@@ -78,4 +78,6 @@ theme: zen
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: git@github.com:pueue/pueue.github.io.git
+  branch: master 
