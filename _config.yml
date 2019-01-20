@@ -81,3 +81,12 @@ deploy:
   type: git
   repo: git@github.com:pueue/pueue.github.io.git
   branch: master 
+
+# Feed
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  content: true
+  order_by: -date
+  icon: themes/pueue/source/logo.png
