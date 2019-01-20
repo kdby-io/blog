@@ -1,0 +1,20 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:latest
+    working_directory: ~/blog
+    steps:
+      - checkout
+      - run:
+          name: Setup git
+          command: git config --global user.email "dev@pueue.com" && git config --global user.name "Sangwon Kim"
+      - run:
+          name: Install dependencies
+          command: sudo npm install -g hexo && yarn
+      - run:
+          name: Generate
+          command: hexo generate
+      - run:
+          name: Deploy
+          command: hexo deploy
