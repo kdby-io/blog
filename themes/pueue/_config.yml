@@ -22,4 +22,4 @@ stylesheets:
 # scripts loaded in the end of the body
 scripts:
 - /js/bootstrap.min.js
-- /js/zen.js
+- /js/wheelspin.js
