@@ -89,4 +89,4 @@ feed:
   limit: 20
   content: true
   order_by: -date
-  icon: themes/pueue/source/logo.png
+  icon: logo.png
