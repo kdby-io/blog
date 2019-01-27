@@ -7,6 +7,7 @@ const list = [
   "So, what is that for?",
   "Picking abandoned ideas off the ground",
   "Entropy increaser",
+  "Undervalued metaphors and analogies"
 ];
 
 const spinSpinWheelspin = () => {
