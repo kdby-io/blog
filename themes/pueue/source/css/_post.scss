@@ -1,10 +1,10 @@
 .post-title {
-  font-size: 2.1em;
+  font-size: 240%; 
   letter-spacing: 1.25px;
   font-weight: bold;
 
   a {
-    color: #000;
+    color: $base-text-color;
     text-decoration: none;
     &:hover {
       color: $brand-color;
@@ -13,15 +13,16 @@
 }
 
 .post-info {
-  color: #797979;
+  font-size: 16px;
+  color: #AAA;
   text-transform: uppercase;
   letter-spacing: .6px;
   font-weight: 500;
   font-family: $sans-serif-family;
+  font-style: italic;
 }
 
 .post-body {
-  font-size: 125%;
   clear: both;
   margin-top: 1.5em;
   padding-bottom: 10px;
@@ -71,32 +72,32 @@
 .post-body h4,
 .post-body h5,
 .post-body h6 {
-  color: #000;
+  color: $base-text-color;
   font-weight: 700;
 }
 
 .post-body h1 {
-  font-size: 2em;
+  font-size: 180%;
 }
 
 .post-body h2 {
-  font-size: 1.5em;
+  font-size: 160%;
 }
 
 .post-body h3 {
-  font-size: 1.25em;
+  font-size: 140%;
 }
 
 .post-body h4 {
-  font-size: 1.125em;
+  font-size: 130%;
 }
 
 .post-body h5 {
-  font-size: 1.06em;
+  font-size: 120%;
 }
 
 .post-body h6 {
-  font-size: 1.03em;
+  font-size: 110%;
 }
 
 .post-body hr {
@@ -120,7 +121,6 @@ blockquote {
   color: #999;
   padding: 0 18px;
   font-family: "Georgia";
-  font-size: 15px;
   line-height: 28px;
   margin: 0px;
   font-style: italic;
@@ -214,12 +214,12 @@ blockquote {
 .post-body th {
   padding: 6px 0;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 20px;
   border-bottom: 2px solid #ddd;
 }
 
 .post-body .highlight figcaption {
-  font-size: 12px;
+  font-size: 13px;
   color: #999;
 }
 
