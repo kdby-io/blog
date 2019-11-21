@@ -14,10 +14,10 @@ jobs:
           command: git config --global user.email "dev@pueue.com" && git config --global user.name "Sangwon Kim"
       - run:
           name: Install dependencies
-          command: sudo npm install -g hexo && yarn
+          command: npm install hexo
       - run:
           name: Generate
-          command: hexo generate
+          command: npx hexo generate
       - run:
           name: Deploy
-          command: hexo deploy
+          command: npx hexo deploy
