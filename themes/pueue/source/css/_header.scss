@@ -28,18 +28,19 @@
   }
 
   #blog-logo {
-    // background-size: contain;
-    // background-image: url('/logo.png');
-    // width: $blog-logo-size;
-    // height: $blog-logo-size;
-    font-size: 240%;
-
-    @media (max-width: $breakpoint) {
-      font-size: 200%;
-    }
+    background-size: contain;
+    background-image: url('/logo.png');
+    width: $blog-logo-size;
+    height: $blog-logo-size;
   }
 
   #blog-nav {
+    font-size: 1.5em;
+
+    @media (max-width: $breakpoint) {
+      font-size: 1.2em;
+    }
+
     div {
       display: inline-block;
       padding: 0.5em;
