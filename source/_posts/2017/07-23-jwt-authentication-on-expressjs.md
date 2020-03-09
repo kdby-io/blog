@@ -136,4 +136,4 @@ http://localhost:3000/users/1
 # -> {"result":"success"}
 ```
 
-[전체 코드 보기](https://gist.github.com/pueue/a5d57392387befdc0a79848b9e060c12)
+[전체 코드 보기](https://gist.github.com/creepyrabbit/a5d57392387befdc0a79848b9e060c12)

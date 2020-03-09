@@ -5,7 +5,7 @@ title: Hass.io에 커스텀 도메인 SSL 인증서를 설치하다
 
 # 문제
 
-![](2018-09-20-19-36-42.png)
+{% asset_img 2018-09-20-19-36-42.png %}
 
 Hass.io에서 [DuckDNS 애드온](https://www.home-assistant.io/addons/duckdns/)은 SSL 인증서도 쉽게 설치할 수 있도록 해준다. 하지만 커스텀 도메인을 지원하지 않는다. DuckDNS를 쓰면서 커스텀 도메인으로 접속하면 이런 메시지를 볼 수 있다. SSL 인증서의 도메인과 접속하려는 도메인이 다르기 때문이다.
 

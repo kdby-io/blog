@@ -8,4 +8,4 @@ Programming was just my hobby and my major was international trade when I was in
 
 Programming is still my hobby, though I started my career as a programmer. I like creating something that seems to be unuseful. Because sometimes code can just be fun.
 
-I live in Seoul, Korea, and open to working remotely. you can also find me at [Github](https://github.com/pueue) and [Linkedin](https://www.linkedin.com/in/kimsangwon).
+I live in Seoul, Korea, and open to working remotely. you can also find me at [Github](https://github.com/creepyrabbit) and [Linkedin](https://www.linkedin.com/in/kimsangwon).

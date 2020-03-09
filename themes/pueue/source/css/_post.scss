@@ -1,6 +1,5 @@
 .post-title {
-  font-size: 2.1em;
-  letter-spacing: 1.25px;
+  font-size: 48px;
   font-weight: bold;
 
   a {
@@ -9,6 +8,10 @@
     &:hover {
       color: $brand-color;
     }
+  }
+
+  @media (max-width: $breakpoint) {
+    font-size: 36px;
   }
 }
 
@@ -21,10 +24,14 @@
 }
 
 .post-body {
-  font-size: 125%;
+  font-size: 18px;
   clear: both;
   margin-top: 1.5em;
   padding-bottom: 10px;
+
+  @media (max-width: $breakpoint) {
+    font-size: 14px;
+  }
 }
 
 .post-body img {
@@ -80,23 +87,23 @@
 }
 
 .post-body h2 {
-  font-size: 1.5em;
+  font-size: 1.8em;
 }
 
 .post-body h3 {
-  font-size: 1.25em;
+  font-size: 1.5em;
 }
 
 .post-body h4 {
-  font-size: 1.125em;
+  font-size: 1.25em;
 }
 
 .post-body h5 {
-  font-size: 1.06em;
+  font-size: 1.1em;
 }
 
 .post-body h6 {
-  font-size: 1.03em;
+  font-size: 1em;
 }
 
 .post-body hr {
@@ -240,7 +247,6 @@ blockquote {
 .post-body .highlight {
   overflow: auto;
   padding: 0;
-  font-size: 13px;
   background: #f7f7f7 !important;
   line-height: 1.6;
 }
@@ -264,7 +270,6 @@ blockquote {
 
 .post-body pre {
   padding: 0;
-  font-size: 13px;
   background: #f7f7f7;
   line-height: 1.6;
   padding-top: 10px;

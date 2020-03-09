@@ -5,13 +5,13 @@
 }
 
 body {
-  font-family: $serif-family;
+  font-family: $sans-serif-family;
   color: #333;
   font-size: 14px;
 }
 
 main {
-  margin: 2em 1em;
+  margin: 2em 5px;
 }
 
 p {
@@ -61,7 +61,7 @@ kbd,
 pre,
 samp {
   font-family: monospace, monospace;
-  font-size: 14px;
+  font-size: 0.8em;
 }
 
 code {
@@ -70,7 +70,7 @@ code {
   color: #4d4d4c;
   background: #f7f7f7;
   border-radius: 3px;
-  font-size: 13px;
+  // font-size: 13px;
 }
 
 pre code {

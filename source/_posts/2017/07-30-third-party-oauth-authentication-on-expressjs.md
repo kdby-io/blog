@@ -89,4 +89,4 @@ app.listen(port, () => {
 }
 ```
 
-[전체 코드 보기](https://gist.github.com/pueue/00e22514b0e27812cf781d6ee0caa9e0)
+[전체 코드 보기](https://gist.github.com/creepyrabbit/00e22514b0e27812cf781d6ee0caa9e0)

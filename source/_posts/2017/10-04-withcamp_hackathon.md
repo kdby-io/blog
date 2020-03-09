@@ -3,7 +3,7 @@ title: Withcamp 해커톤
 tag: event
 ---
 
-![hhkb_pro2](withcamp_hackathon.jpg)
+{% asset_img withcamp_hackathon.jpg %}
 
 첫 야외 해커톤에, 첫 하드웨어 해커톤이다.
 

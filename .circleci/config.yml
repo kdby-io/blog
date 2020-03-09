@@ -11,7 +11,7 @@ jobs:
       - checkout
       - run:
           name: Setup git
-          command: git config --global user.email "dev@pueue.com" && git config --global user.name "Sangwon Kim"
+          command: git config --global user.email "dev@creepyrabbit.com" && git config --global user.name "Sangwon Kim"
       - run:
           name: Install dependencies
           command: npm install hexo

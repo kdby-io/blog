@@ -23,7 +23,7 @@ Download Deno from [Github repository](https://github.com/denoland/deno/releases
 └─ deno
 {% endcodeblock %}
 
-According to [Custom AWS Lambda runtimes](https://docs.aws.amazon.com/lambda/latest/dg/runtimes-custom.html), the runtime is responsible for jobs including getting an event and a context, invoking the function, and handling the response or errors. Instead of implementing them, I forked [lambci/node-custom-lambda](https://github.com/lambci/node-custom-lambda) and migrate `bootstrap.js` code to `runtime.ts` for Deno. [Here](https://github.com/pueue/deno-custom-lambda/blob/master/runtime.ts) is `runtime.ts`.
+According to [Custom AWS Lambda runtimes](https://docs.aws.amazon.com/lambda/latest/dg/runtimes-custom.html), the runtime is responsible for jobs including getting an event and a context, invoking the function, and handling the response or errors. Instead of implementing them, I forked [lambci/node-custom-lambda](https://github.com/lambci/node-custom-lambda) and migrate `bootstrap.js` code to `runtime.ts` for Deno. [Here](https://github.com/creepyrabbit/deno-custom-lambda/blob/master/runtime.ts) is `runtime.ts`.
 
 {% codeblock line_number:false %}
 .

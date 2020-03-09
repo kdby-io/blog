@@ -61,19 +61,19 @@ Add below codes in `Preference -> Package Settings -> SublimeLinter -> Setting -
         "passive_warnings": false,
         "paths": {
             "linux": [
-                "/home/pueue/virtualenvs/<VENV_ROOT>/bin"
+                "/home/creepyrabbit/virtualenvs/<VENV_ROOT>/bin"
             ],
             "osx": [
-                "/Users/pueue/virtualenvs/<VENV_ROOT>/bin"
+                "/Users/creepyrabbit/virtualenvs/<VENV_ROOT>/bin"
             ],
             "windows": []
         },
         "python_paths": {
             "linux": [
-                "/home/pueue/virtualenvs/<VENV_ROOT>/bin"
+                "/home/creepyrabbit/virtualenvs/<VENV_ROOT>/bin"
             ],
             "osx": [
-                "/Users/pueue/virtualenvs/<VENV_ROOT>/bin"
+                "/Users/creepyrabbit/virtualenvs/<VENV_ROOT>/bin"
             ],
             "windows": []
         },
