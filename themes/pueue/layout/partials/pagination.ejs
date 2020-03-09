@@ -1,16 +1,16 @@
 <div id="pagination">
   <div class="pagination-btn">
     <% if (page.next) { %>
-      <a class="older" href="<%- url_for(page.next_link) %>"><div>Older</div></a>
+      <a class="previous" href="<%- url_for(page.next_link) %>"><div>&lt;&lt; Previous</div></a>
     <% } else { %>
-      <div class="older disabled">Older</div>
+      <div class="previous disabled">&lt;&lt; Previous</div>
     <% } %>
   </div>
   <div class="pagination-btn">
     <% if (page.prev) { %>
-      <a class="newer" href="<%- url_for(page.prev_link) %>"><div>Newer</div></a>
+      <a class="next" href="<%- url_for(page.prev_link) %>"><div>Next &gt;&gt;</div></a>
     <% } else { %>
-      <div class="newer disabled">Newer</div>
+      <div class="next disabled">Next &gt;&gt;</div>
     <% } %>
   </div>
 </div>

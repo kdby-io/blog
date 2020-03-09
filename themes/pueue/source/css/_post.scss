@@ -23,6 +23,20 @@
   font-family: $sans-serif-family;
 }
 
+.post-truncate {
+  overflow: hidden;
+  height: 100px;
+}
+
+.post-truncate-cover {
+  top: -100px;
+  position: relative;
+  height: 100px;
+  display: block;
+  background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,1));
+  // background-color: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,100));
+}
+
 .post-body {
   font-size: 18px;
   clear: both;

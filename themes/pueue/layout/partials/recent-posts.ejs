@@ -15,8 +15,15 @@
           </time>
         </div>
 
-        <div class="post-body">
-          <%- post.content %>
+        <div class="post-body post-truncate">
+          <div class="post-truncate">
+            <%- htmlTruncate(post.content, 1000, {
+              ellipsis: '',
+              keepWhitespaces: true,
+              reserveLastWord: true
+          }) %>
+          </div>
+          <div class="post-truncate-cover"></div>
         </div>
       </div>
     <% }); %>
