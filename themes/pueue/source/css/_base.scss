@@ -14,10 +14,6 @@ main {
   margin: 2em 5px;
 }
 
-p {
-  line-height: 22px;
-}
-
 #header-horizon {
   height: 5px;
   background-color: $brand-color;
@@ -31,7 +27,7 @@ p {
   position: relative;  
 
   .posts>.post-block {
-    margin-top: 2em;
+    margin-bottom: 4em;
 
     &:first-child {
       margin-top: 0;

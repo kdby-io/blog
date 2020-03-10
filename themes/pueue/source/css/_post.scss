@@ -1,5 +1,5 @@
 .post-title {
-  font-size: 48px;
+  font-size: 36px;
   font-weight: bold;
 
   a {
@@ -33,13 +33,14 @@
   position: relative;
   height: 100px;
   display: block;
-  background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,1));
+  background: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,1));
   // background-color: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,100));
 }
 
 .post-body {
   font-size: 18px;
   clear: both;
+  line-height: 1.6em;
   margin-top: 1.5em;
   padding-bottom: 10px;
 
@@ -97,23 +98,23 @@
 }
 
 .post-body h1 {
-  font-size: 2em;
-}
-
-.post-body h2 {
   font-size: 1.8em;
 }
 
-.post-body h3 {
+.post-body h2 {
   font-size: 1.5em;
 }
 
-.post-body h4 {
+.post-body h3 {
   font-size: 1.25em;
 }
 
-.post-body h5 {
+.post-body h4 {
   font-size: 1.1em;
+}
+
+.post-body h5 {
+  font-size: 1em;
 }
 
 .post-body h6 {
