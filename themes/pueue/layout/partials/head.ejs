@@ -1,11 +1,22 @@
 <%
 const pageTitle = page.title ? `${page.title} - ${config.title}` : config.title;
+const pageDescription = page.content ? truncate(page.content, { length: 200 }) : config.description;
+const pageUrl = page.title ? page.permalink : config.url;
 %>
 
 <head>
   <meta charset="UTF-8">
   <title><%=pageTitle%></title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <%- open_graph({
+    title: pageTitle,
+    type: page.title ? "article" : "blog",
+    url: pageUrl,
+    image: `${config.url}/logo.jpg`,
+    site_name: config.title,
+    description: pageDescription,
+  }) %>
 
   <%- autoCanonical(config, page) %>
 

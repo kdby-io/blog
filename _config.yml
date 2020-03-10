@@ -5,7 +5,7 @@
 # Site
 title: 괴토
 subtitle:
-description:
+description: Not everything has to be useful. Sometimes code can just be fun :D
 keywords:
 author: Sangwon Kim
 language: ko
@@ -104,3 +104,6 @@ robotstxt:
     - /
   sitemap: https://creepyrabbit.com/sitemap.xml
   
+# nofollow
+nofollow:
+	enable: true
