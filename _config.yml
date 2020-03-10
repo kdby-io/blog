@@ -90,3 +90,17 @@ feed:
   content: true
   order_by: -date
   icon: logo.jpg
+
+# Sitemap
+sitemap:
+  path: sitemap.xml
+  tag: false
+  category: false
+  
+# robots.txt
+robotstxt:
+  useragent: "*"
+  allow:
+    - /
+  sitemap: https://creepyrabbit.com/sitemap.xml
+  

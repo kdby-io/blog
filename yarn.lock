@@ -288,6 +288,11 @@ block-stream@*:
   dependencies:
     inherits "~2.0.0"
 
+bluebird@3.5.4:
+  version "3.5.4"
+  resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.4.tgz#d6cc661595de30d5b3af5fcedd3c0b3ef6ec5714"
+  integrity sha512-FG+nFEZChJrbQ9tIccIfZJBz3J7mLrAhxakAbnrJWn8d7aKOC+LWifa0G+p4ZqKp4y13T7juYvdhq9NzKdsrjw==
+
 bluebird@^3.2.2, bluebird@^3.5.1, bluebird@^3.5.2, bluebird@^3.5.5:
   version "3.7.2"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.7.2.tgz#9f229c15be272454ffa973ace0dbee79a1b0c36f"
@@ -894,6 +899,11 @@ ee-first@1.1.1:
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
+ejs@2.6.1:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/ejs/-/ejs-2.6.1.tgz#498ec0d495655abc6f23cd61868d926464071aa0"
+  integrity sha512-0xy4A/twfrRCnkhfk8ErDi5DqdAsAqeGxht4xkCUrsvhhbQNs7E+4jV0CN7+NKIY0aHE72+XvqtBIXzD31ZbXQ==
+
 ejs@^2.6.1:
   version "2.7.4"
   resolved "https://registry.yarnpkg.com/ejs/-/ejs-2.7.4.tgz#48661287573dcc53e366c7a1ae52c3a120eec9ba"
@@ -1328,6 +1338,11 @@ header-case@^1.0.0:
     no-case "^2.2.0"
     upper-case "^1.1.3"
 
+hexo-auto-canonical@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/hexo-auto-canonical/-/hexo-auto-canonical-0.1.1.tgz#9d864d6a915e399c6d1b89042846eb0bf209fc9b"
+  integrity sha512-PR9JyqjK17Lun+/OOAT8+p1LjDknMIDJpyMnnNOlGthj3ry43xLy5+sYITjywhs6/wI5iROfC4lhlytNgII44A==
+
 hexo-bunyan@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/hexo-bunyan/-/hexo-bunyan-2.0.0.tgz#020d7a51104cc7fe50df9005020c359ac504309e"
@@ -1399,6 +1414,23 @@ hexo-generator-index@^1.0.0:
   integrity sha512-L25MdZ7e5ar/F8lIW+zBNNlA4f5A8CBUOYi1IQZCgL3wPVW+AWn66RSM5UVBAbiw5yxDeTHdk0sJYXbhSBaOFQ==
   dependencies:
     hexo-pagination "1.0.0"
+
+hexo-generator-robotstxt@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/hexo-generator-robotstxt/-/hexo-generator-robotstxt-0.2.0.tgz#e65a68659808904295f6ad99ebf6abbbeb6a32f2"
+  integrity sha1-5lpoZZgIkEKV9q2Z6/aru+tqMvI=
+
+hexo-generator-seo-friendly-sitemap@^0.0.25:
+  version "0.0.25"
+  resolved "https://registry.yarnpkg.com/hexo-generator-seo-friendly-sitemap/-/hexo-generator-seo-friendly-sitemap-0.0.25.tgz#73a02197bc65a38738a0d3927128e2e48ceb29ce"
+  integrity sha512-SjAOFJ80yynWWPx7WENWVXYDoMOEI/xETM/6YE36DQJEFMDfQDx0p8gpuMZR1XTcMaEu4WtWG16dk1vwtyW+DA==
+  dependencies:
+    bluebird "3.5.4"
+    ejs "2.6.1"
+    lodash "4.17.11"
+    moment "2.24.0"
+    pretty-data "0.40.0"
+    url-join "4.0.0"
 
 hexo-generator-tag@^1.0.0:
   version "1.0.0"
@@ -1996,6 +2028,11 @@ lodash.some@^4.4.0:
   resolved "https://registry.yarnpkg.com/lodash.some/-/lodash.some-4.6.0.tgz#1bb9f314ef6b8baded13b549169b2a945eb68e4d"
   integrity sha1-G7nzFO9ri63tE7VJFpsqlF62jk0=
 
+lodash@4.17.11:
+  version "4.17.11"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
+  integrity sha512-cQKh8igo5QUhZ7lg38DYWAxMvjSAKG0A8wGSVimP07SIUEK2UO+arSRKbRZWtelMtN5V0Hkwh5ryOto/SshYIg==
+
 lodash@^4.0.0, lodash@^4.17.11, lodash@^4.17.15, lodash@~4.17.12:
   version "4.17.15"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
@@ -2184,7 +2221,7 @@ moment-timezone@^0.5.21:
   dependencies:
     moment ">= 2.9.0"
 
-"moment@>= 2.9.0", moment@^2.10.6, moment@^2.22.2:
+moment@2.24.0, "moment@>= 2.9.0", moment@^2.10.6, moment@^2.22.2:
   version "2.24.0"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.24.0.tgz#0d055d53f5052aa653c9f6eb68bb5d12bf5c2b5b"
   integrity sha512-bV7f+6l2QigeBBZSM/6yTNq4P2fNpSWj/0e7jQcy87A8e7o2nAfP/34/2ky5Vw4B9S446EtIhodAzkFCcR4dQg==
@@ -2640,6 +2677,11 @@ postcss@^7.0.0:
     chalk "^2.4.2"
     source-map "^0.6.1"
     supports-color "^6.1.0"
+
+pretty-data@0.40.0:
+  version "0.40.0"
+  resolved "https://registry.yarnpkg.com/pretty-data/-/pretty-data-0.40.0.tgz#572aa8ea23467467ab94b6b5266a6fd9c8fddd72"
+  integrity sha1-Vyqo6iNGdGerlLa1Jmpv2cj93XI=
 
 pretty-hrtime@^1.0.3:
   version "1.0.3"
@@ -3479,6 +3521,11 @@ urix@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/urix/-/urix-0.1.0.tgz#da937f7a62e21fec1fd18d49b35c2935067a6c72"
   integrity sha1-2pN/emLiH+wf0Y1Js1wpNQZ6bHI=
+
+url-join@4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/url-join/-/url-join-4.0.0.tgz#4d3340e807d3773bda9991f8305acdcc2a665d2a"
+  integrity sha1-TTNA6AfTdzvamZH4MFrNzCpmXSo=
 
 use@^3.1.0:
   version "3.1.1"
