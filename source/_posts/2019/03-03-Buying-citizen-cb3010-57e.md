@@ -38,6 +38,6 @@ slug: buying-citizen-cb3010-57e
 
 의도하진 않았는데 배송이 딱 2월 28일에 와서 날짜가 넘어가는걸 바로 볼 수 있었습니다. 열 두시 땡 하면 날짜가 넘어갑니다.
 
-<iframe width="800" height="600" src="https://www.youtube.com/embed/2yrtP-_PChM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+{% youtube 2yrtP-_PChM %}
 
 사진으로는 실물의 느낌을 담을 수가 없어서 안타깝습니다. 정말 작고 단단해보입니다.
