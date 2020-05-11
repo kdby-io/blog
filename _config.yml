@@ -106,4 +106,12 @@ robotstxt:
   
 # nofollow
 nofollow:
-	enable: true
+  enable: true
+  
+# utterances
+utterances:
+  enable: true
+  repo: creepyrabbit/blog
+  issue_term: pathname
+  label: ✨💬✨
+  theme: github-light

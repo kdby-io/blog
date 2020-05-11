@@ -1,0 +1,10 @@
+<% if (config.utterances.enable == true) { %>
+  <script src="https://utteranc.es/client.js"
+          repo="<%= config.utterances.repo %>"
+          issue-term="<%= config.utterances.issue_term %>"
+          label="<%= config.utterances.label %>"
+          theme="<%= config.utterances.theme %>"
+          crossorigin="anonymous"
+          async>
+  </script>
+<% } %>
