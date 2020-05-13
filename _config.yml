@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 괴토
+title: 김상원
 subtitle:
 description: Not everything has to be useful. Sometimes code can just be fun :D
 keywords:
-author: Sangwon Kim
+author: 김상원
 language: ko
 timezone: Asia/Seoul
 
@@ -107,11 +107,3 @@ robotstxt:
 # nofollow
 nofollow:
   enable: true
-  
-# utterances
-utterances:
-  enable: true
-  repo: scon-io/blog
-  issue_term: pathname
-  label: ✨💬✨
-  theme: github-light

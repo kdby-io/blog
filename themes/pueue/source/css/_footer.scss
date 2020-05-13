@@ -1,6 +1,28 @@
 #blog-footer {
-  padding: 1em 0 2em 0;
-  text-align: center;
-  font-family: $sans-serif-family;
+  padding: 1em 5px;
+  // text-align: center;
+  // font-family: $sans-serif-family;
   font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: $max-width;
+  overflow: hidden;
+  // padding: 1em 5px;
+  margin: 0 auto;
+  font-size: 24px;
+  font-weight: bold;
+
+  @media (max-width: $breakpoint) {
+    font-size: 15px;
+  }
+
+  a {
+    color: $base-text-color;
+
+    &:hover {
+        color: $brand-color;
+        text-decoration: none;
+    }
+  }
 }
