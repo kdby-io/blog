@@ -4,7 +4,7 @@ tag: tool
 ---
 매번 개발환경을 세팅할 때마다 gist에 백업해놓은 dotfile들을 복사해서 경로에 수동으로 붙혀넣는 것이 귀찮았다. 겨우 파일 세 개지만, 가끔씩 gist에 백업된 파일과 변경사항을 확인해서 백업해놓는 것도 성가신 작업이었다.
 
-[Tmuxp](https://github.com/tony/tmuxp)를 쓰면서 관리해야할 파일이 네 개가 되었다... 이젠 gist에 수동으로 저장할 게 아니라 [repository](https://github.com/creepyrabbit/dotfiles)를 하나 만들어서 관리하려고 한다.
+[Tmuxp](https://github.com/tony/tmuxp)를 쓰면서 관리해야할 파일이 네 개가 되었다... 이젠 gist에 수동으로 저장할 게 아니라 [repository](https://github.com/scon-io/dotfiles)를 하나 만들어서 관리하려고 한다.
 
 ```sh
 #!/bin/zsh

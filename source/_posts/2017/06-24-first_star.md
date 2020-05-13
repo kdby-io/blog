@@ -10,4 +10,4 @@ Next.js 저장소에서 Typescript loader를 사용할 수 있게 하는 PR에�
 
 아마 Next.js가 ts-loader를 지원하게 되면 필요없어질 짧은 수명의 저장소겠지만, 뭔가 나도 오픈소스 생태계에 한 발짝 들어선 느낌이다.
 
-아! 이 글의 주인공은 [https://github.com/creepyrabbit/nextjs-typescript-boilerplate](https://github.com/creepyrabbit/nextjs-typescript-boilerplate)다.
+아! 이 글의 주인공은 [https://github.com/scon-io/nextjs-typescript-boilerplate](https://github.com/scon-io/nextjs-typescript-boilerplate)다.

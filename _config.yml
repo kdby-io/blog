@@ -13,7 +13,7 @@ timezone: Asia/Seoul
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://creepyrabbit.com
+url: https://scon.io
 root: /
 permalink: :title/
 permalink_defaults:
@@ -77,10 +77,10 @@ theme: pueue
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type: git
-  repo: git@github.com:creepyrabbit/creepyrabbit.github.io.git
-  branch: master 
+# deploy:
+#   type: git
+#   repo: git@github.com:scon-io/scon-io.github.io.git
+#   branch: master 
 
 # Feed
 feed:
@@ -102,7 +102,7 @@ robotstxt:
   useragent: "*"
   allow:
     - /
-  sitemap: https://creepyrabbit.com/sitemap.xml
+  sitemap: https://scon.io/sitemap.xml
   
 # nofollow
 nofollow:
@@ -111,7 +111,7 @@ nofollow:
 # utterances
 utterances:
   enable: true
-  repo: creepyrabbit/blog
+  repo: scon-io/blog
   issue_term: pathname
   label: ✨💬✨
   theme: github-light

@@ -49,6 +49,6 @@ module.exports = app; // for testing
 ```
 
 Github에 스켈레톤 프로젝트를 만들었다.
-[http://github.com/creepyrabbit/api-versioning-swagger-skeleton](http://github.com/creepyrabbit/api-versioning-swagger-skeleton)
+[http://github.com/scon-io/api-versioning-swagger-skeleton](http://github.com/scon-io/api-versioning-swagger-skeleton)
 
 실행시 `swagger project start` 대신 `node app.js`를 사용해주면 된다.
