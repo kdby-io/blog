@@ -1,7 +1,7 @@
 ---
 title: 파이썬 버전 관리 - pyenv
 tag: python
-published: false
+hidden: true
 ---
 [pyenv](https://github.com/pyenv/pyenv)는 파이썬의 버전 관리 툴이다. 이를 이용하면 한 컴퓨터에서 여러 버전의 파이썬을 설치할 수 있고, 손쉽게 원하는 버전으로 전환할 수 있다.
 

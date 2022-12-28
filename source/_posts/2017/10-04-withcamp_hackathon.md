@@ -1,7 +1,7 @@
 ---
 title: Withcamp 해커톤
 tag: event
-published: false
+hidden: true
 ---
 
 {% asset_img withcamp_hackathon.jpg %}

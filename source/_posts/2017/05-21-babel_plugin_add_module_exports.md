@@ -1,7 +1,7 @@
 ---
 title: Babel로 es6 모듈을 commonJS와 ES6 module 모두 호환되게 하기
 tag: javascript
-published: false
+hidden: true
 ---
 
 아래처럼 es6로 클래스를 만들고 babel compile 후 다른 곳에서 불러오는데 에러가 났다.

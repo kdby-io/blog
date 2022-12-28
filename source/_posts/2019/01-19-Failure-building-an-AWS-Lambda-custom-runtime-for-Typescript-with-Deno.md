@@ -1,7 +1,7 @@
 ---
 title: Failure building an AWS Lambda custom runtime for Typescript with Deno
 date: 2019-01-19 17:02:33
-published: false
+hidden: true
 tags:
 ---
 

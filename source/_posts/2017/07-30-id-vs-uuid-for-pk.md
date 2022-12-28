@@ -1,7 +1,7 @@
 ---
 title: ID vs UUID
 tag: database
-published: false
+hidden: true
 ---
 
 제목이 논리적으로 말이 안되어서 어그로 글인줄 알 수도 있겠지만, 직관적으로 무슨 내용의 글인지 바로 알 수 있는 짧은 제목을 찾다보니 저래됐다... 진짜 제목은 'primary key로써 순차증가하는 숫자키 vs UUID'.

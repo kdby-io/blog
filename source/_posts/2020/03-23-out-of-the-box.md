@@ -1,7 +1,7 @@
 ---
 title: Out of the box
 date: 2020-03-23 10:37:04
-published: false
+hidden: true
 tags:
 ---
 나는 제품이나 라이브러리의 태그라인을 읽을 때 out of the box란 구문이 보이면 더 관심을 갖는다. Out of the box란 따로 설정없이 바로 사용할 수 있다는 뜻이다. 비슷한 단어로 automagically도 있다. 이런 태그라인을 가진 것들은 어떻게 동작하는지 몰라도 사용자의 목적에 도달하도록 해준다.

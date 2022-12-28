@@ -1,7 +1,7 @@
 ---
 title: Docker-compose의 몇 가지 팁
 tag: tool
-published: false
+hidden: true
 ---
 
 ### docker-compose build 시 image의 이름

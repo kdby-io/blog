@@ -1,7 +1,7 @@
 ---
 title: 설정파일(dotfiles) 관리하기
 tag: tool
-published: false
+hidden: true
 ---
 매번 개발환경을 세팅할 때마다 gist에 백업해놓은 dotfile들을 복사해서 경로에 수동으로 붙혀넣는 것이 귀찮았다. 겨우 파일 세 개지만, 가끔씩 gist에 백업된 파일과 변경사항을 확인해서 백업해놓는 것도 성가신 작업이었다.
 

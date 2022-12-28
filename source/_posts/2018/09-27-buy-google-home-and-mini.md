@@ -1,7 +1,7 @@
 ---
 tag: Things
 title: 구글 홈과 구글 홈 미니를 사다
-published: false
+hidden: true
 ---
 
 {% asset_img 2018-09-27-22-07-37.png %}

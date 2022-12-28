@@ -1,7 +1,7 @@
 ---
 title: Github 첫 star
 tag: scribble
-published: false
+hidden: true
 ---
 Github에서 처음으로 스타를 받았다. 작은 오픈소스에 내 PR이 merge된 적도 있고, 몇 개의 저장소에 issue를 올려본 적은 있었지만, 내 저장소에서 다른 개발자와의 상호작용이 일어난 건 처음이다.
 

@@ -1,6 +1,7 @@
 ---
 title: swagger-node에서 여러 API 문서 다루기
 tag: express
+hidden: true
 ---
 swagger-node로 프로젝트를 생성하면 swagger-express-mw를 사용하는 스켈레톤 프로젝트를 자동으로 셋업해준다. 여기에서 swagger-tools의 swagger-ui를 미들웨어로 추가하면 API 문서를 Swagger UI로 볼 수 있다.
 

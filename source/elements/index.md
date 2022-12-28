@@ -4,7 +4,7 @@ category: test
 tag: test
 subtitle: "Elements Included in RSnippets Themes"
 cover_img: copyright-free-images.jpg
-published: false
+hidden: true
 date: 2018-01-01
 ---
 

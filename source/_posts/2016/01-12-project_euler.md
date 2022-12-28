@@ -1,6 +1,6 @@
 ---
 title: Project Euler Solutions(Python 3)
-published: false
+hidden: true
 tag: algorithm
 ---
 

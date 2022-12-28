@@ -1,7 +1,7 @@
 ---
 title: range-shuffle
 tag: javascript
-published: false
+hidden: true
 ---
 [range-shuffle](https://github.com/kdby-io/range-shuffle)란 이름으로 npm에 처음으로 내가 만든 모듈을 배포해봤다.
 

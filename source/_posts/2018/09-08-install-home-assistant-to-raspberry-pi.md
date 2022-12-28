@@ -1,7 +1,7 @@
 ---
 tag: Things
 title: 라즈베리파이에 Home Assistant를 설치하다
-published: false
+hidden: true
 ---
 
 집에서 놀고 있는 라즈베리파이에 [hass.io](https://www.home-assistant.io/hassio/)를 설치한다.

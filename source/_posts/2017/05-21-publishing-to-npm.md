@@ -1,7 +1,7 @@
 ---
 title: npm에 node.js 모듈 배포하기
 tag: javascript
-published: false
+hidden: true
 ---
 
 먼저 npm에 계정을 만들어야 한다. [npm 사이트](https://www.npmjs.com/)에서 할 수도 있지만, 터미널에서 `npm adduser`로도 계정을 만들 수 있다. 이미 계정이 있는 경우 `npm login`으로 로그인하자.

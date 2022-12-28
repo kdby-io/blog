@@ -1,7 +1,7 @@
 ---
 title: 중복되지 않는 아주 큰 랜덤 순열 생성하기
 tag: 알고리즘
-published: false
+hidden: true
 ---
 640x640 크기의 모든 이미지 작품을 전시하고 있는 가상의 박물관, [The Museum of Babel](http://museumofbabel.herokuapp.com/)을 구현하면서 순서 섞기에 관한 문제가 생겼다.
 

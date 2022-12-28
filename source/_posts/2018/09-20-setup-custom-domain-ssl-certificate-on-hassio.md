@@ -1,7 +1,7 @@
 ---
 tag: Things
 title: Hass.io에 커스텀 도메인 SSL 인증서를 설치하다
-published: false
+hidden: true
 ---
 
 # 문제

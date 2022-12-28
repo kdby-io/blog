@@ -1,6 +1,7 @@
 ---
 title: Happy Hacking Pro 2
 tag: keyboard
+hidden: true
 ---
 ![hhkb_pro2](hhkb_pro2.jpg)
 

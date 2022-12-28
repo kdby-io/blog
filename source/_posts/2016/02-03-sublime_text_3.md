@@ -1,7 +1,7 @@
 ---
 title: Sublime Text 3 플러그인
 tag: sublime text
-published: false
+hidden: true
 ---
 ## Install Sublime Text 3
 

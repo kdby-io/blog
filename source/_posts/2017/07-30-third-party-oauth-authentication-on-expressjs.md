@@ -1,7 +1,7 @@
 ---
 title: Express.js에서 oauth로 서드파티 사용자 인증하기
 tag: javascript
-published: false
+hidden: true
 ---
 
 [Express.js](https://expressjs.com/)와 [Passport.js](http://passportjs.org/)를 이용해서 페이스북 계정을 인증해보자. 먼저 아래 과정을 통해 우리가 만든 웹 서버가 페이스북 oauth를 이용할 수 있게 한다.
