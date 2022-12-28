@@ -1,6 +1,7 @@
 ---
 title: Cursor based pagination
 tag: database
+published: false
 ---
 
 다수의 데이터를 나눠서 보여주기 위해서 난 여태까지 offset 기반의 페이지네이션만 써왔다. 다른 방법이 있는지도 몰랐다.

@@ -1,6 +1,7 @@
 ---
 title: 졸업
 tag: scribble
+published: false
 ---
 졸업을 했다. 졸업장에는 두 개의 학위가 적혀있다.
 

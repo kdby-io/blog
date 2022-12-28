@@ -1,6 +1,7 @@
 ---
 title: Sublime Text 3 플러그인
 tag: sublime text
+published: false
 ---
 ## Install Sublime Text 3
 
@@ -61,19 +62,19 @@ Add below codes in `Preference -> Package Settings -> SublimeLinter -> Setting -
         "passive_warnings": false,
         "paths": {
             "linux": [
-                "/home/sconio/virtualenvs/<VENV_ROOT>/bin"
+                "/home/kdbyio/virtualenvs/<VENV_ROOT>/bin"
             ],
             "osx": [
-                "/Users/sconio/virtualenvs/<VENV_ROOT>/bin"
+                "/Users/kdbyio/virtualenvs/<VENV_ROOT>/bin"
             ],
             "windows": []
         },
         "python_paths": {
             "linux": [
-                "/home/sconio/virtualenvs/<VENV_ROOT>/bin"
+                "/home/kdbyio/virtualenvs/<VENV_ROOT>/bin"
             ],
             "osx": [
-                "/Users/sconio/virtualenvs/<VENV_ROOT>/bin"
+                "/Users/kdbyio/virtualenvs/<VENV_ROOT>/bin"
             ],
             "windows": []
         },

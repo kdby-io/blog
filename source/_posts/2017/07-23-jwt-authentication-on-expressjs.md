@@ -1,6 +1,7 @@
 ---
 title: Express.js에서 JWT로 사용자 인증하기
 tag: javascript
+published: false
 ---
 
 [JWT(JSON Web Token)](https://jwt.io/introduction)은 정보를 안전하게 전달하는 방법이다. 이때 안전하다는 말은 정보가 타인에게 노출되지 않고 전달된다는 의미가 아니다. 수신자가 받은 정보가 원하는 발신자로 부터 온 것이 맞는지, 전달 도중 누군가에 의해 내용이 바뀌지는 않았는지를 검증할 수 있다는 의미다. JWT는 토큰의 노출을 가정하고 만들어졌다. 전달되는 정보를 암호화하지도 않는다. 그래서 중요한 정보는 JWT로 전달하면 안된다.
@@ -136,4 +137,4 @@ http://localhost:3000/users/1
 # -> {"result":"success"}
 ```
 
-[전체 코드 보기](https://gist.github.com/scon-io/a5d57392387befdc0a79848b9e060c12)
+[전체 코드 보기](https://gist.github.com/kdby-io/a5d57392387befdc0a79848b9e060c12)

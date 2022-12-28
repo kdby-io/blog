@@ -1,6 +1,7 @@
 ---
 title: Google Music의 I'm feeling lucky mix
 tag: 알고리즘
+published: false
 ---
 Google Music의 첫 화면에는 I'm feeling lucky mix 버튼이 있다.
 사용자의 취향에 기반해 음악을 자동 선정해 재생목록을 만들어주는 기능같은데, 반 년 가까이 I'm feeling lucky mix로만 음악을 듣다보니 문제가 있음을 발견했다.

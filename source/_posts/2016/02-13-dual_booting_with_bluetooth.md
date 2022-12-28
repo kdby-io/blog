@@ -1,6 +1,7 @@
 ---
 title: 멀티부팅 환경에서 블루투스 사용하기
 tag: ubuntu
+published: false
 ---
 [Roost Stand](http://roo.st/)와 함께 사용할 키보드가 필요하던 차에 아마존에서 블루투스 무선 키보드의 끝판왕이라고들 부르는 [Logitech k810](http://www.logitech.com/en-us/product/bluetooth-illuminated-keyboard-k810)을 한시적으로 저렴하게 판매하는 것을 보고 구매했다. 이상하게 한국에서의 가격이 비쌌기에 핫딜이 아니더라도 아마존에서 구매하는 편이 더 이득이다. 개인적으로 깔끔한 영문각인 키보드를 좋아하기에 이번 기회에 아주 기쁜 마음으로 질렀다.
 

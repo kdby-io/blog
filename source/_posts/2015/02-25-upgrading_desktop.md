@@ -1,6 +1,7 @@
 ---
 title: 5년 만에 데스크탑 업그레이드
 tag: hardware
+published: false
 ---
 ![](https://lh6.googleusercontent.com/-8dyunZCOHqA/VPEcEdIcIZI/AAAAAAAAHjc/PQ1BqHRaf7Q/w977-h865-no/2015-02-25%2B16.05.44.jpg)
 

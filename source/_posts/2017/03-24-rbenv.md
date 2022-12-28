@@ -1,6 +1,7 @@
 ---
 title: rbenv - 루비 버전 관리
 tag: ruby
+published: false
 ---
 [rbenv](https://github.com/rbenv/rbenv)는 루비의 버전 관리 툴이다. 이를 이용하면 한 컴퓨터에서 여러 버전의 루비를 설치할 수 있고, 손쉽게 원하는 버전으로 전환할 수 있다.
 

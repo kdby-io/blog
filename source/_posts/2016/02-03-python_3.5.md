@@ -1,6 +1,7 @@
 ---
 title: Python 3.5 개발환경 세팅
 tag: python
+published: false
 ---
 ## Install Python 3.5
 

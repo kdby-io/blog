@@ -1,6 +1,7 @@
 ---
 title: Red-Black TREE
 tag: 자료구조
+published: false
 ---
 과제용으로 만든 red-black 트리. remedy()에 꽤 시간을 많이 들인게 아까워서 기록차 포스팅한다. 아! 이제보니 insert만 있고 remove는 없네...
 

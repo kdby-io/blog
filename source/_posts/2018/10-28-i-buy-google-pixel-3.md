@@ -1,6 +1,7 @@
 ---
 title: iOS만 11년... 하지만 구글 픽셀 3(Google Pixel 3)을 사다
 tag: Things
+published: false
 ---
 
 아이폰 SE의 두번째 버전이 나오면 사려고 일 년을 기다렸다. 하지만 애플은 '그런거 없다'를 시전했다.

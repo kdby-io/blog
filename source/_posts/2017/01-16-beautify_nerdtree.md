@@ -1,6 +1,7 @@
 ---
 title: NERDTree 꾸미기
 tag: vim
+published: false
 ---
 NERDTree는 Vim을 쓰는 사람에게 필수적인 플러그인이다. 사용자가 많은만큼 이와 관련된 플러그인 또한 많다. 그 중에서 투박한 NERDTree의 파일트리를 좀 더 시각적으로 괜찮게 바꿀 수 있는 플러그인 두 가지를 소개한다.
 

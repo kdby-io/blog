@@ -1,6 +1,7 @@
 ---
 tag: Things
 title: 필립스 휴 3.0 스타터 킷을 사다
+published: false
 ---
 
 스마트홈 구축의 입문격이라는 필립스 휴를 샀다. 

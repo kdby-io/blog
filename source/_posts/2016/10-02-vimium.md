@@ -1,6 +1,7 @@
 ---
 title: vimium
 tag: tool
+published: false
 ---
 나는 웹서핑을 하면서 마우스를 거의 사용하지 않는다.  
 대부분 키보드 위에 두 손을 가지런히 올려놓고, 손가락만 움직이면서 웹서핑을 한다. 마우스을 사용하는 것보다 동선이 작아서 편하다. Chrome의 확장 프로그램인 [Vimium](http://vimium.github.io/) 덕분이다. Vimium은 크롬에서 vim의 키보드 단축키를 사용하게 해준다.

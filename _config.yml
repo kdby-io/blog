@@ -13,7 +13,7 @@ timezone: Asia/Seoul
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://scon.io
+url: https://kdby.io
 root: /
 permalink: :title/
 permalink_defaults:
@@ -79,7 +79,7 @@ theme: pueue
 ## Docs: https://hexo.io/docs/deployment.html
 # deploy:
 #   type: git
-#   repo: git@github.com:scon-io/scon-io.github.io.git
+#   repo: git@github.com:kdby-io/kdby-io.github.io.git
 #   branch: master 
 
 # Feed
@@ -102,7 +102,7 @@ robotstxt:
   useragent: "*"
   allow:
     - /
-  sitemap: https://scon.io/sitemap.xml
+  sitemap: https://kdby.io/sitemap.xml
   
 # nofollow
 nofollow:

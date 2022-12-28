@@ -1,6 +1,7 @@
 ---
 title: GraphQL 기초
 tag: web
+published: false
 ---
 
 추석 전 마지막 스프린트 진행이 생각보다 빨라서 enhancement로 API 서버에 GraphQL을 구성했다.
